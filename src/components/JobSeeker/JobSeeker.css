@@ -1,0 +1,140 @@
+section {
+    border: solid 1px gray;
+    width: 100%;
+    border-radius: 0.6rem;
+    margin: 20px 0px;
+}
+
+.section_content {
+    margin: 20px;
+}
+.section_top_content {
+    display: flex;
+    margin: 0px 0px 20px 0px;
+}  
+.section_title {
+    width: 100%;
+    color: #878787;
+    margin: 0px 0px 23px 0px;
+    font-size: 2rem;
+}
+
+.section_action {
+    /* display: flex;
+    justify-content: space-between;
+    width: 11%; */
+    width: 100%;
+    text-align: right;
+}
+
+.profile-content {
+   margin-left: 15%;
+   margin-right: 15%;   
+}
+
+.resume-header {
+   background-color: #1FB0B0;
+   color: white;
+   margin-top: 2%;
+   margin-bottom: 2%;
+   padding: 3%;
+   border-radius: 10px;   
+   text-align: center;
+}
+
+.add-button {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  text-decoration: underline;
+}
+
+.add-profile {
+
+  margin-top: 13%;
+  margin-bottom: 15%;
+}
+
+.resume-title {    
+    color: Black; 
+    font-style: italic;
+    font-weight: bold;  
+ }
+
+
+.content-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-list .skills {
+    width: 88%;
+}
+
+.content-list .educations {
+    width: 88%;
+}
+
+.content-list button {
+    margin: 0px 2px;
+}
+
+.profile-title {
+    opacity:0;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1FB0B0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  .alert {
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    text-align: left;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
